@@ -1,0 +1,288 @@
+/* Homepage */ 
+
+.site-logo {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.form-head {
+    text-align: center;
+}
+
+.form-head h1 {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 26px;
+    color: #6a5acd;
+    text-decoration: underline;
+}
+
+.form-div {
+    background: #6a5acd;
+    margin-top: 30px;
+    padding: 40px 20px;
+}
+
+.form-div form label {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
+.form-div form input { 
+    height: 25px;
+    padding: 0 9px;
+    font-size: 13px;
+}
+
+.input-desc {
+    display: inline-block;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+.first-name-div input {
+    margin-left: 52px;
+}
+
+.last-name-div {
+    margin-top: 20px;
+}
+
+.last-name-div input {
+    margin-left: 58px;
+}
+
+.dob-div {
+    margin-top: 20px;
+}
+
+.dob-div label {
+    margin-right: 30px;
+}
+
+.dob-div select {
+    background-color: #ffffff;
+    height: 25px;
+}
+
+.email-div {
+    margin-top: 35px;
+}
+
+.email-div input {
+    margin-left: 20px;
+}
+
+.mobileno-div {
+    margin-top: 20px;
+}
+
+.mobileno-div input {
+    margin-left: 61px;
+}
+
+.genderbox-div {
+    margin-top: 20px;
+    height: 50px;
+}
+
+.genderbox-div span {
+    color: #ffffff;
+    font-family:  sans-serif;
+    font-weight: 600;
+}
+
+.genderbox-div .male-spantag {
+    margin-left: 83px;
+}
+
+.genderbox-div input {
+    height: 13px !important;
+}
+
+.address-div {
+    margin-top: 20px;
+}
+
+.address-div textarea {
+    vertical-align: top;
+    margin-left: 72px;
+}
+
+.coursesbox-div {
+    margin-top: 20px;
+    height: 50px;
+}
+
+.coursesbox-div label {
+    line-height: 31px;
+    vertical-align: top;
+}
+
+.coursesbox-div span {
+    color: #ffffff;
+    font-family:  sans-serif;
+    font-weight: 600;
+}
+
+.coursesbox-div .web-spantag {
+    margin-left: 46px;
+}
+
+.coursesbox-div input {
+    height: 13px !important;
+}
+
+.city-div {
+    margin-top: 20px;
+}
+
+.city-div input {
+    margin-left: 114px;
+}
+
+.pincode-div {
+    margin-top: 20px;
+}
+
+.pincode-div input {
+    margin-left: 72px;
+}
+
+.state-div {
+    margin-top: 20px;
+}
+
+.state-div input {
+    margin-left: 99px;
+}
+
+.country-div {
+    margin-top: 20px;
+}
+
+.country-div input {
+    margin-left: 72px;
+}
+
+.hobbies-div {
+    margin-top: 20px;
+    height: 50px;
+}
+
+.hobbies-div span {
+    color: #ffffff;
+    font-family:  sans-serif;
+    font-weight: 600;
+}
+
+.hobbies-div .reading-spantag {
+    margin-left: 75px;
+}
+
+.hobbies-div input {
+    height: 13px !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.button-div {
+    text-align: center;
+    margin-top: 55px;
+}
+
+.button-div input {
+    margin-left: 10px;
+}
+
+.button-div button {
+    width: 100px;
+    height: 40px !important;
+    font-size: 14px !important;
+    font-weight: bold;
+    background: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    box-shadow: inset 1px 1px 12px 4px #99ca3c;
+    cursor: pointer;
+}
+
+.button-div button:focus,
+.button-div button:active {
+    outline: none;
+}
+
+.qualification-div {
+    margin-top: 20px;   
+}
+
+.qualification-div table {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+}
+
+.qualification-div th,
+.qualification-div td {
+    color: #ffffff;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.td-center {
+    text-align: center;
+}
+
+/* Submit Page CSS */
+
+.success-icon {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.success-icon img {
+    width: 200px;
+}
+
+.submit-content {
+    text-align: center;
+}
+
+.submit-content h2 {
+    text-transform: capitalize;
+    color: #418705;
+    font-size: 36px;
+}
+
+.submit-content p {
+    font-size: 21px;
+    color: #714db5;
+    font-weight: 600;
+
+}
+
+.back-link {
+    text-align: center;
+}
+
+.back-link p {
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.back-link p a {
+    color: #60367d;
+}
