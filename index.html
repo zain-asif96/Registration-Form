@@ -27,7 +27,8 @@
                     id="first-name" 
                     placeholder="Enter first name" 
                     maxlength="30" 
-                    minlength="2" 
+                    minlength="2"
+                    required
                     
                 />
                 <p class="input-desc"> (max 30 characters a-z and A-Z) </p>
@@ -43,6 +44,7 @@
                     placeholder="Enter last name" 
                     maxlength="30" 
                     minlength="2" 
+                    required
                     
                 />
                 <p class="input-desc"> (max 30 characters a-z and A-Z) </p>
@@ -51,7 +53,7 @@
             <!-- DOB -->
             <div class="dob-div">
                 <label for="dob"> Date Of Birth: </label>
-                <select name="day" id="day" >
+                <select name="day" id="day" required>
                     <option value="none" selected disabled> Day:</option>
                     <option value="01"> 01 </option>
                     <option value="02"> 02 </option>
@@ -86,7 +88,7 @@
                     <option value="31"> 31 </option>
                 </select>
 
-                <select name="month" id="mont" >
+                <select name="month" id="mont" required>
                     <option value="none" selected disabled> Month: </option>
                     <option value="Jan">   Jan   </option>
                     <option value="Feb">   Feb   </option>
@@ -102,7 +104,7 @@
                     <option value="Dec">   Dec   </option>
                 </select>
 
-                <select name="year" id="year" >
+                <select name="year" id="year" required>
                     <option value="none" selected disabled> Year: </option>
                     <option value="1990"> 1990 </option>
                     <option value="1991"> 1991 </option>
@@ -127,6 +129,7 @@
                     name="email" 
                     id="email-id" 
                     placeholder="Enter email address" 
+                    required
                     
                 />
             </div>
@@ -140,7 +143,8 @@
                     id="mobile-number" 
                     placeholder="Enter mobile number" 
                     maxlength="11" 
-                    minlength="11" 
+                    minlength="11"
+                    required 
                     
                 />
                 <p class="input-desc"> (11 digit number) </p>
@@ -154,7 +158,8 @@
                     type="radio" 
                     name="gender" 
                     id="Male" 
-                    value="male" 
+                    value="male"
+                    required
                     
                 />
                 <span> Female </span>
@@ -173,6 +178,7 @@
                     name="address" 
                     id="address-det" 
                     rows="5" 
+                    required
                     >
                 </textarea>
             </div>
@@ -187,6 +193,7 @@
                     placeholder="Enter city name" 
                     maxlength="30" 
                     minlength="2" 
+                    required
                     
                 />
                 <p class="input-desc"> (max 30 characters a-z and A-Z) </p>
@@ -202,6 +209,7 @@
                     placeholder="Enter state name" 
                     maxlength="30" 
                     minlength="2" 
+                    required
                     
                 />
                 <p class="input-desc"> (max 30 characters a-z and A-Z) </p>
@@ -217,6 +225,7 @@
                     placeholder="Enter country name" 
                     maxlength="30" 
                     minlength="2" 
+                    required
                     
                 />
                 <p class="input-desc"> (max 30 characters a-z and A-Z) </p>
@@ -232,6 +241,7 @@
                     placeholder="Enter pin code" 
                     maxlength="6" 
                     minlength="6" 
+                    required
                     
                 />
                 <p class="input-desc"> (6 digit number) </p>
@@ -280,31 +290,31 @@
                             <td>1.</td>
                             <td>Class IX</td>
                             <td>
-                                <input type="text" name="board" id="board-data" />
+                                <input type="text" name="board" id="board-data" required/>
                             </td>
                             <td>
-                                <input type="text" name="percent" id="percentage" />
+                                <input type="text" name="percent" id="percentage" required/>
                             </td>
                             <td>
-                                <input type="text" name="passingyear" id="passing-year" />
+                                <input type="text" name="passingyear" id="passing-year" required/>
                             </td>
                         </tr>
                         <tr>
                             <td>2.</td>
                             <td>Class X</td>
                             <td>
-                                <input type="text" name="board" id="board-data" />
+                                <input type="text" name="board" id="board-data" required/>
                             </td>
                             <td>
-                                <input type="text" name="percent" id="percentage" />
+                                <input type="text" name="percent" id="percentage" required/>
                             </td>
                             <td>
-                                <input type="text" name="passingyear" id="passing-year" />
+                                <input type="text" name="passingyear" id="passing-year" required/>
                             </td>
                         </tr>
                         <tr>
                             <td>3.</td>
-                            <td>Graduation</td>
+                            <td>Intermediate</td>
                             <td>
                                 <input type="text" name="board" id="board-data" />
                             </td>
